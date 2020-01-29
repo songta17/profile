@@ -1,0 +1,240 @@
+body {
+  /*font-family: 'Libre Franklin', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  background-color: #014359;
+  color: rgb(32, 114, 136);
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+#top {
+  background-color: #18191a;
+  top: 15px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  /*background-color: #27292a;*/
+  margin: 0 auto;
+  padding: 20px 0;
+}
+#top-profile {
+  position: relative;
+  width: 700px;
+  height: 200px;
+}
+#top_picture {
+  position: absolute;
+  width: 120px;
+  height: 200px;
+}
+#top_title {
+  position: absolute;
+  right: 0px;
+  top: -13px;
+  width: 555px;
+  height: 40px;
+}
+
+.btn-blue {
+  background-color: #00828a;
+  position: relative;
+  top: -37px;
+  padding: 10px 30px;
+  height:20px;
+  width: 30px;
+  border-radius: 6px;
+}
+
+.btn-blue:hover {
+  background-color: #00959e;
+  color: black;
+  position: relative;
+  top: -37px;
+  padding: 10px 30px;
+  height:20px;
+  width: 30px;
+  border-radius: 6px;
+}
+
+#top-description {
+  position: absolute;
+  height: 125px;
+  width: 555px;
+  border-radius: 4px;
+  background-color: white;
+  right: 0px;
+  top: 74px;
+}
+
+.card {
+  border-radius: 4px;
+  background-color: white;
+  margin: 30px 0px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.circle-picture {
+  height: 200px;
+  width: 120px;
+  border-radius: 30px;
+}
+
+h1, h2 {
+  line-height: 40px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+h1 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  color: #ea872c;
+}
+
+a {
+  text-decoration: none;
+  color: cyan;
+}
+
+a:hover {
+  color: #ea872c;
+}
+
+p {
+  padding-bottom:40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  font-size:30px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 540px;
+    /*background-color: #27292a;*/
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  #top-profile {
+    position: relative;
+    width: 540px;
+    height: 250px;
+  }
+  #top_picture {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 120px;
+    height: 200px;
+  }
+  #top_title {
+    position: absolute;
+    left: 0px;
+    top: -13px;
+    width: 540px;
+    height: 40px;
+  }
+  .btn-blue {
+    background-color: #00828a;
+    position: relative;
+    top: -17px;
+    padding: 10px 30px;
+    height:20px;
+    width: 30px;
+    border-radius: 6px;
+  }
+
+  .btn-blue:hover {
+    background-color: #00959e;
+    color: black;
+    position: relative;
+    top: -17px;
+    padding: 10px 30px;
+    height:20px;
+    width: 30px;
+    border-radius: 6px;
+  }
+
+  #top-description {
+    position: absolute;
+    height: 198px;
+    width: 390px;
+    border-radius: 15px;
+    background-color: white;
+    left: 140px;
+    top: 50px;
+  }
+
+  .card {
+    border-radius: 4px;
+    background-color: white;
+    margin: 30px 0px;
+    box-shadow: 5px 5px 10px gray;
+  }
+
+  .circle-picture {
+    height: 200px;
+    width: 120px;
+    border-radius: 15px;
+  }
+
+  h1, h2 {
+    line-height: 40px;
+    background-color: white;
+    border-radius: 6px;
+  }
+
+  h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+
+  h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    color: #ea872c;
+  }
+
+  a {
+    text-decoration: none;
+    color: cyan;
+  }
+
+  a:hover {
+    color: #ea872c;
+  }
+
+  p {
+    padding-bottom:40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .container li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size:30px;
+  }
+
+  }
+}
